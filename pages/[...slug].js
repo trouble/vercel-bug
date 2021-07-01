@@ -15,7 +15,7 @@ export const getStaticProps = async ({ params, locale }) => {
 		props: {
 			page: {},
 		},
-		revalidate: 2,
+		revalidate: 60,
 	};
 };
 
